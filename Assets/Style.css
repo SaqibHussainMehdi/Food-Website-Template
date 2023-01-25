@@ -32,7 +32,11 @@ body{
    font-weight: bold;
 }
 .main-nav ul li a:hover{
-    text-decoration:underline;
+   
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition: all 0.5s ease-in;
+    padding: 15px 0;
    
    
  }
@@ -52,3 +56,23 @@ body{
 h1{
     color: white;
 }
+.btn-wrapper{
+    margin-top: 40px;
+}
+.btn{
+    border: 1px solid #e67e22;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #e67e22;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+ .btn-half{
+    background-color: #e67e22;
+    color: white;
+ }
+ .btn-full:hover{
+    background-color: #e67e22;
+    color: white;
+    transition: all 0.5s ease-in;
+ } 
