@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: tahoma;
+}
+.main-nav-wrapper{
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav ul:nth-child(2){
+    display: flex;
+}
+.main-nav ul li{
+    list-style-type: none;
+    margin-left: 20px;}
+.main-nav ul li img{
+    width: 100px;
+    height: 100px;
+}
+.main-nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 100%;
+   font-weight: bold;
+}
+.main-nav ul li a:hover{
+    text-decoration:underline;
+   
+   
+ }
+.hero-text{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-wrapper{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../Images/Food_Hero_BG.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: white;
+}
